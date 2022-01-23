@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>APP3</display-name>
+    <servlet-name>APP3</servlet-name>
+    <servlet-class>com.afzal.APP3.APP3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>APP3</servlet-name>
+    <url-pattern>/APP3</url-pattern>
+  </servlet-mapping>
+  <display-name>Assisted Practice Project1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>App2</servlet-name>
+    <servlet-class>com.afzal.APP2.App2</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>APP4</display-name>
+    <servlet-name>APP4</servlet-name>
+    <servlet-class>com.afzal.APP4.APP4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>APP4</servlet-name>
+    <url-pattern>/APP4</url-pattern>
+  </servlet-mapping>
+  <description></description>
+  <display-name>InterfaceDemo</display-name>
+  <servlet>
+    <description></description>
+    <display-name>InterfaceDemo</display-name>
+    <servlet-name>InterfaceDemo</servlet-name>
+    <servlet-class>com.afzal.interface1.InterfaceDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InterfaceDemo</servlet-name>
+    <url-pattern>/interfaceDemo</url-pattern>
+  </servlet-mapping>
+</web-app>
